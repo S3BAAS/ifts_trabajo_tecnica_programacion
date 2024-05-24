@@ -13,8 +13,4 @@ while True:
         break
     else:
         print('Verifique su contraseña y vuelva a cargarla.')
-        intentosIniciales += 1
-        
-    
-    
-    
+        intentosIniciales += 1   
