@@ -1,16 +1,16 @@
 intentosMax = int(input('Ingresa la cantidad de intentos: '))
 intentosIniciales = 1
-passwordCorrecta = '123456'
+codigoCorrecto = 123456
 
 while True:
-    password = input('Ingresa tu contraseña: ')
+    codigoIngresado = input('Ingresa el codigo: ')
     if intentosIniciales == intentosMax:
         print('Ha sido bloqueado por superar la cantidad de intentos posibles')
         break
     
-    if password == passwordCorrecta:
+    if codigoIngresado == codigoCorrecto:
         print('Logueo Exitoso!!!')
         break
     else:
-        print('Verifique su contraseña y vuelva a cargarla.')
         intentosIniciales += 1   
+        print('Verifique su codigo y vuelva a cargarla.')
